@@ -1,0 +1,68 @@
+<%- include ('./partials/navbar') %>
+
+<div class="wraper">
+    <div class="container text-white center shadow-lg mb-3">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="row">
+              <div class="col text-center message">
+                <h1>Contact US</h1>
+                <p class="text-h3"></p>
+              </div>
+            </div>
+            <form action="/register" method="post" onsubmit="return valiDate()">
+            <div class="row align-items-center">
+              <div class="col mt-4">
+                <input type="text" class="form-control" name="name" id="fullName" placeholder="Enter Your Full Name ...">
+              </div>
+            </div>
+            <div class="row align-items-center mt-4">
+              <div class="col">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Enter Your Email Here ..." required>
+              </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col mt-4">
+                  <textarea type="text" class="form-control" name="name" id="fullName" placeholder="Tell us Your Problem ..." rows="10"></textarea>
+                </div>
+            </div>
+                <button class="btn btn-black mt-4 btn-block" type="submit">Send Query</button>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<%- include ('./partials/footer') %>
+<script>
+    document.querySelector('.contact').classList.add('active');
+</script>
+
+<style>
+    .wraper{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/3815759/pexels-photo-3815759.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 95vh
+    }
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 30px;
+        background: rgba(206, 205, 201, 0.274);
+        border-radius: 8px;
+    }
+    .btn-black{
+       color:aliceblue;
+       background-color: #000; 
+       border-radius: 3px;
+    }
+    .btn-black:hover{
+        color: rgb(76, 73, 247);
+        letter-spacing: 2px;
+    }
+    
+</style>

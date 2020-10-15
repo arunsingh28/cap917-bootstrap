@@ -1,0 +1,77 @@
+<%- include ('./partials/navbar')%>
+<%- include ('./partials/popover') %>
+<div class="wraper">
+    <div class="jumbotron ">
+        <div class="container">
+          <h1 class="display-4 text-white">Beverages</h1>
+          <p class="lead text-white">Complement your pizza with wide range of sides & beverages available at Domino's Pizza India</p>
+        </div>
+    </div>
+    <nav aria-label="breadcrumb" style="margin-top: -32px;">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/menu">Menu</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Beverages</li>
+        </ol>
+    </nav>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-4">
+                <!-- one -->
+                <div class="card" style="width: 20rem;">
+                    <img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_300/http://androthemes.com/themes/wp/slices/wp-content/uploads/2020/06/orange-300x300.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Strawberry Juice</h5>
+                      <span>₹150</span>
+                      <p class="card-text"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                      <p class="card-text" style="font-size: .8rem;">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier</p>
+                      <a href="#" class="btn btn-primary w-100" data-target="#strawberry" data-toggle="modal">Buy</a>
+                    </div>
+                  </div>
+            </div>
+            <!-- two -->
+            <div class="col-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_300/http://androthemes.com/themes/wp/slices/wp-content/uploads/2020/06/blueberry-300x300.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Blueberry Juice</h5>
+                    <span>₹120</span>
+                      <p class="card-text"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                      <p class="card-text" style="font-size: .8rem;">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier</p>
+                      <a href="#" class="btn btn-primary w-100" data-target="#blueberry" data-toggle="modal">Buy</a>
+                    </div>
+                  </div>
+            </div>
+            <!-- three -->
+            <div class="col-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_300/http://androthemes.com/themes/wp/slices/wp-content/uploads/2020/06/strawberry-juice-300x300.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Orange Juice</h5>
+                      <span>₹90</span>
+                      <p class="card-text"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                      <p class="card-text" style="font-size: .8rem;">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier</p>
+                      <a href="#" class="btn btn-primary w-100" data-target="#orange" data-toggle="modal">Buy</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        </div>
+</div>
+
+<%- include ('./partials/footer')%>
+
+<script>
+    document.querySelector('.menu').classList.add('active')
+</script>
+<style>
+    .wraper{
+        margin-top: 52px;
+    }
+    .jumbotron{
+       background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url(http://androthemes.com/themes/wp/slices/wp-content/uploads/2020/06/3-1.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       position: relative;
+   } 
+</style>

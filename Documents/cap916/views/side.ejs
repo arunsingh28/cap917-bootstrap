@@ -1,0 +1,80 @@
+<%- include ('./partials/navbar') %>
+<%- include ('./partials/popover') %>
+<div class="wraper mb-4">
+    <!-- side banner -->
+<div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4 text-white">Sides</h1>
+      <p class="lead text-white">Complement your pizza with wide range of sides & beverages available at OneLife's Pizza India</p>
+    </div>
+</div>
+<nav aria-label="breadcrumb" style="margin-top: -32px;">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/menu">Menu</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Sides</li>
+    </ol>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <!-- one -->
+            <div class="card" style="width: 20rem;">
+                <img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_300/http://androthemes.com/themes/wp/slices/wp-content/uploads/2020/06/onion-rigns-300x297.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Onion Rings</h5>
+                  <span>₹120</span>
+                  <p class="card-text"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <p class="card-text" style="font-size: .8rem;">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier</p>
+                  <a href="#" class="btn btn-primary w-100" data-toggle="modal" data-target="#onionRings">Buy</a>
+                </div>
+              </div>
+        </div>
+        <!-- two -->
+        <div class="col-4">
+            <div class="card" style="width: 20rem;">
+                <img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_300/http://androthemes.com/themes/wp/slices/wp-content/uploads/2020/06/english-breakfast-300x300.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">English Breakfast</h5>
+                <span>₹230</span>
+                  <p class="card-text"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <p class="card-text" style="font-size: .8rem;">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier</p>
+                  <a href="#" class="btn btn-primary w-100" data-toggle="modal" data-target="#english">Buy</a>
+                </div>
+              </div>
+        </div>
+        <!-- three -->
+        <div class="col-4">
+            <div class="card" style="width: 20rem;">
+                <img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_300/http://androthemes.com/themes/wp/slices/wp-content/uploads/2020/06/tortilla-combo-300x300.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tortilla Combo</h5>
+                  <span>₹140</span>
+                  <p class="card-text"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <p class="card-text" style="font-size: .8rem;">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier</p>
+                  <a href="#" class="btn btn-primary w-100" data-toggle="modal" data-target="#tortilla">Buy</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<%- include ('./partials/footer')%>
+
+
+<script>
+    document.querySelector('.menu').classList.add('active')
+</script>
+
+<style>
+    .wraper{
+        margin-top: 52px;
+    }
+    .jumbotron{
+       background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url(http://androthemes.com/themes/wp/slices/wp-content/uploads/2020/06/slices-subheader.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       position: relative;
+   } 
+</style>

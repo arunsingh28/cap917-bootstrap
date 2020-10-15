@@ -1,0 +1,81 @@
+<%- include ('./partials/navbar') %>
+
+<header class="masthead text-center text-white" style="transform: skew(10deg,10deg);">
+    <div class="masthead-content">
+      <div class="container">
+        <h1 class="masthead-heading mb-0">One Life Pizza</h1>
+        <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+        <a href="/menu" class="btn btn-primary btn-xl rounded-pill mt-5 hover">order now</a>
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+
+  <section class="bg-black text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle shadow" src="/image/bg_1.png" alt="Mexican Pizza">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">For those about to rock...</h2>
+            <div class="lead">Mexican Green Wave</div>
+            <p class="mt-2">A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.</p>
+            <button class="btn btn-secondary rounded-pill mt-2 buy">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-black text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle shadow" src="/image/bg_2.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">We salute you!</h2>
+            <div class="lead">Double Cheese Margherita</div>
+            <p class="mt-2">A pizza that decidedly staggers under an overload of golden corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around</p>
+            <button class="btn btn-secondary rounded-pill mt-2 buy">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-center bg-black pt-5 pb-5">
+    <a href="/menu" class="btn btn-gradient text-white">More</a>
+  </section>
+
+
+  <script>
+    document.querySelector('.home').classList.add('active');
+  </script>
+
+  <style>
+    .btn-gradient{
+      background-image: linear-gradient(50deg,#090979,#00d4ff);
+      padding: 8px 60px;
+      border: none;
+      box-shadow: inset 0px 5px 10px 10px black;
+    }
+    .btn-gradient:hover{
+      box-shadow: none
+    }
+    body{
+      background: #000;
+    }
+  </style>
+
+  <%- include ('./partials/footer') %>

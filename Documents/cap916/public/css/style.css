@@ -1,0 +1,79 @@
+
+.shadow{
+    box-shadow:7px 17px 19px 10px rgba(0,0,0,0.11)
+}
+.fa-heart{
+    color: red;
+}
+.font{
+    font-size: 56px !important;
+    font-family: Catamaran;
+    color: #fff;
+}
+.bg-img{
+    height: 800px;
+    width: 100%;
+    background-image: linear-gradient(50deg,rgba(0,0,0,0.11),rgba(0,0,0,0.55)),url(https://images.pexels.com/photos/3815759/pexels-photo-3815759.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pizza{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9H-kkisGIe8kvRaKRPNtMfQx97klVhJOSTg&usqp=CAU);
+    background-size: cover;
+    border-radius: 300px;
+
+}
+.ab-1{
+    margin-bottom: -30px
+}
+.menu-title{
+    color: #fff;
+}
+.buy{
+    padding: 10px 80px !important;
+}
+.btn-secondary{
+    background-image: linear-gradient(45deg, #FF5722, #FF9800);
+    background-size: 103%;
+    border: none;
+}
+.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{
+    background-image: linear-gradient(45deg, #FF5722, #FF9800);
+    background-size: 103%;
+    border: none;
+}
+.btn-secondary:focus{
+    box-shadow:0 0 0 .2rem rgba(255,106,0,.5)
+}
+
+
+.fa-star{
+    color: gold;
+}
+.card-title{
+    font-size: 1.7rem;
+}
+.card{
+    transition: .2s ease-in;
+    cursor: pointer;
+    border: none !important;
+   
+}
+.card:hover{
+    box-shadow: 1px 2px 20px 8px rgba(0,0,0,0.3)
+}
+.show{
+    background:#3031317a !important
+}
+.card-item{
+    transition: .2s ease-in;
+}
+.card-item:hover{
+    filter: drop-shadow(20px 10px 13px #000);
+}
+.btn:hover{
+    background-color: #FFC107 !important;
+    border-color: #FFC107 !important;
+}
